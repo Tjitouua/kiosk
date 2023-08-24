@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .hea {
+        background-color:lightgray;
+        height:35px;
+        padding-bottom:5px;
+    }
+    .uni {
+        padding-top:10px;
+        padding-left:8px;
+        color:rgba(0, 0, 0, 0.703);
+        font-family:sans-serif, arial;
+        font-size:15px;
+    }
+    .pic {
+        width:550px;
+        padding-left:60px;
+        padding-bottom:5px;
+        margin-right:90px;
+    }
+    .a {
+        background-color:white;
+        width:500px;
+        height:300px;
+        float:left;
+        margin-left:50px;
+        filter:drop-shadow(10px 10px 10px gray);
+    }
+    .b {
+        background-color:white;
+        width:550px;
+        height:320px;
+        float:right;
+        margin-right:200px;
+        filter:drop-shadow(10px 10px 10px gray);
+    }
+    .prospective {
+        padding-top:1px;
+        text-align:center;
+        background-color: #1974D2;
+        height:60px;
+    }
+    .stude {
+        padding-top:1px;
+        text-align:center;
+        color:white;
+        font-family:sans-serif, arial;
+        
+    }
+    .par {
+        text-align:center;
+        
+    }
+    .h1 {
+        text-align:center;
+    }
+    .h2 {
+        text-align:center;
+    }
+    .h3 {
+        text-align:center;
+    }
+    .h4 {
+        text-align:center;
+    }
+    .person {
+        padding-top:1px;
+        background-color:#1974D2;
+        color:white;
+        font-family:sans-serif, arial;
+        height:60px;
+    }
+    .regi {
+        padding-left:15px;
+    }
+    .text1 {
+        width:400px;
+        padding-left:40px;
+    }
+    .text2 {
+        width:400px;
+        padding-left:40px;
+    }
+    .feet {
+        background-color:gray;
+        margin-top:400px;
+    }
+    
+    </style>
+</head>
+<body>
+   
+    <header class="hea">
+        <h3 class="uni">NAM University of Science and Technology</h3>
+    </header>
+    <img class="pic" src="C:\Users\bmapo\Downloads\NUST.png">
+    <div>
+    <div class="a">
+        <div class="prospective">
+       <h3 class="stude">Prospective Students</h3>
+    </div>
+    <p>If you are a prospective student, not registered at this institution, please select </p>
+    <p class="par">one of the following options:</p>
+    <h4 class="h1">View a list of study areas and qualifications offered at this</h4>
+    <h4 class="h2">institution.</h4>
+    <h4 class="h3">Apply, Register, Change personal information, get academic</h4>
+    <h4 class="h4">and other information and make payments.</h4>
+    </div>
+    
+    <div class="b">
+        <div class="person">
+      <h3 class="regi">Registered Users: Login Credentials</h3>
+    </div>
+    <input type="radio" id="radio" name="radio">Student
+    <input type="radio" id="ra2" name="ra2">Personnel
+    <input type="radio" id="ra3" name="ra3">Other
+    <input type="radio" id="ra4" name="ra4">Alumni
+    <br/>
+    <br/>
+    <label>Student number: </label> <br/>
+    <input class="text1" type="text"/><br/>
+    <label>Pin<label><br/>
+    <input class="text2" type="text"/>
+    <p>(5 numeric digits.Do not start with a 0.)</p><br/>
+    
+    <button type="button">Login</button>
+    <button type="button">Forgot Pin</button>
+    <button type="button">Change Pin</button>
+    <button type="button">Request a Pin</button>
+    <button type="button">Forgot Student Number</button>
+    </div>
+   </div>
+
+   <footer class="feet">
+      <p>Hello NUST!</p>
+   </footer>
+</body>
+</html>
